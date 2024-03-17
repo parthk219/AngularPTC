@@ -1,0 +1,13 @@
+<div class="ekart--search--product">
+    <!-- <input class="ekart-search-product-input" [value]="searchText" (input)="updateSearchText($event)">  USING PROPERTY BINDING & EVENT BINDING TOGETHER -->
+    <input class="ekart-search-product-input" [(ngModel)]="searchText">
+    <!-- Searching using ngModel -->
+    <button class="btn btn-search">Search</button>
+    </div>
+    <div class="ekart-search-result-for"><p><strong>Search result for:</strong> {{searchText}}</p></div>
+    <div class="ekart-product-container-header">
+        <h2>
+            
+        </h2>
+    </div>
+    <div class="ekart--products--container">
